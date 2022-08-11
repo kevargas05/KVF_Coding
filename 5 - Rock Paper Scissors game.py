@@ -29,6 +29,9 @@ import random
 player_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 computer_choice = random.randint(0,2)
 #
+if player_choice > 2:
+  print("Wrong number, try again.")
+#
 options= [rock, paper, scissors]
 print(options[player_choice])
 print("Computer chose:\n")
@@ -57,5 +60,4 @@ if player_choice == 2:
     print("You Won!!!!!!")
   elif computer_choice == 0:
     print("You Lose!")
-  
 
