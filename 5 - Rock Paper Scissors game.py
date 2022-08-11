@@ -31,33 +31,34 @@ computer_choice = random.randint(0,2)
 #
 if player_choice > 2:
   print("Wrong number, try again.")
-#
-options= [rock, paper, scissors]
-print(options[player_choice])
-print("Computer chose:\n")
-print(options[computer_choice])
-#
-if player_choice == 0:
-  if computer_choice == 0:
-    print("Draw!")
-  elif computer_choice == 1:
-    print("You Lose!")
-  elif computer_choice == 2:
-    print("You Won!!!!!!")
-#
-if player_choice == 1:
-  if computer_choice == 1:
-    print("Draw!")
-  elif computer_choice == 0:
-    print("You Won!!!!!!")
-  elif computer_choice == 2:
-    print("You Lose!")
-#
-if player_choice == 2:
-  if computer_choice == 2:
-    print("Draw!")
-  elif computer_choice == 1:
-    print("You Won!!!!!!")
-  elif computer_choice == 0:
-    print("You Lose!")
+else:
+    #
+    options= [rock, paper, scissors]
+    print(options[player_choice])
+    print("Computer chose:\n")
+    print(options[computer_choice])
+    #
+    if player_choice == 0:
+      if computer_choice == 0:
+        print("Draw!")
+      elif computer_choice == 1:
+        print("You Lose!")
+      elif computer_choice == 2:
+        print("You Won!!!!!!")
+    #
+    if player_choice == 1:
+      if computer_choice == 1:
+        print("Draw!")
+      elif computer_choice == 0:
+        print("You Won!!!!!!")
+      elif computer_choice == 2:
+        print("You Lose!")
+    #
+    if player_choice == 2:
+      if computer_choice == 2:
+        print("Draw!")
+      elif computer_choice == 1:
+        print("You Won!!!!!!")
+      elif computer_choice == 0:
+        print("You Lose!")
 
