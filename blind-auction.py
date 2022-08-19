@@ -1,4 +1,4 @@
-from blind-auction_art import logo
+from blind_auction_art import logo
 print(logo)
 #
 bid_time = True
