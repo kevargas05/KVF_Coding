@@ -1,6 +1,6 @@
 from random import choice
-from art import logo, vs
-from game_data import data
+from follower_art import logo, vs
+from follower_game_data import data
 #from replit import clear
 #
 def random_item():
